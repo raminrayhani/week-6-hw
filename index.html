@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<title>Giphy Dynamic</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	</head>
+		
+<body>
+
+		<!-- <div id="background">
+    		<img src="assets/images/giphy-background.gif" class="stretch" alt="" />
+    	</div>  -->
+
+<div class="container-fluid">
+
+		
+
+		<h1>Push buttons to see giphies!</h1>
+		<h2>Then click on giphies to play them!</h2>
+		<br>
+		<br>
+	 	
+
+	 	<!-- buttons go here  -->
+		<div id="showsView"></div>
+
+		<br>
+
+
+				<form id="show-form">
+				<label for="show-input">Add your favorite giphy here: </label>
+				<input type="text" id="show-input">
+			
+				<!-- ADD button -->
+				<input id="addShow" type="submit" value="ADD">
+				</form>
+
+		<br>		
+		<!-- the gif's will appear here -->
+    	<div id="gifsHere"></div>
+
+
+	<script src='https://code.jquery.com/jquery-2.2.3.js'></script>
+	<script src="assets/javascript/giphy.js"></script>
+
+<footer>Created by Ramin Rayhani & copy 2017</footer>
+</div>
+</body>
+</html>
